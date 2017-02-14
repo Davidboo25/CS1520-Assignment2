@@ -60,7 +60,8 @@ function validateForm()
     {
         alert("Data Successfuly submitted.")
         var div = document.getElementById("mainform");
-        div.style.display = 'none';
+        //div.style.display = 'none';
+        document.getElementById("mainform").textContent="Data Submitted. Please refresh page to submit again.";
     }   
     return false;
 }
