@@ -1,12 +1,3 @@
-function todaydate()
-{
-    var today_date= new Date()
-    var myyear=today_date.getYear()
-    var mymonth=today_date.getMonth()+1
-    var mytoday=today_date.getDate()
-    document.write(myyear+"/"+mymonth+"/"+mytoday)
-}
-
 function alertUser()
 {
     if (confirm('Are you sure you want to go to this website?')) 
@@ -29,7 +20,7 @@ function alertUser()
     } 
     else 
     {
-    // Do nothing!
+        // Do nothing!
     }
 }
 
@@ -60,7 +51,6 @@ function validateForm()
     {
         alert("Data Successfuly submitted.")
         var div = document.getElementById("mainform");
-        //div.style.display = 'none';
         document.getElementById("mainform").textContent="Data Submitted. Please refresh page to submit again.";
     }   
     return false;

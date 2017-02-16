@@ -1,23 +1,22 @@
 body
 {
- background: grey;   
+    background: grey;   
 }
 .nav
 {
     width: 100%;
     text-align: center;
     top:0;
-
 }
 .nav > ul
 {
     list-style-type: none;
-    background-color: rgba(102,51,153,0.8)
+    background-color: rgba(102,51,153,0.8);
 }
 .nav > ul li
 {
-      display: inline-block;
-      margin-right: 50px;
+    display: inline-block;
+    margin-right: 50px;
 }
 .mainform
 {
@@ -54,7 +53,7 @@ body
     bottom: 0;
     height: 100px;
     width: 100%;
-    background:rgba(102,51,153,0.8)
+    background:rgba(102,51,153,0.8);
 }
 .leftfoot
 {
@@ -73,7 +72,7 @@ body
 .centerfoot
 {
 
-  float: right;
+    float: right;
     text-align: center;
     width: 33.3%; 
 }

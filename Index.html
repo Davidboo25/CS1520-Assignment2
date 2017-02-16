@@ -5,9 +5,9 @@
         <script src="javaScriptFile.js"></script>
     </head>
     <Title>
-    The best website ever Assignment 2
+        The best website ever Assignment 2
     </Title>
-    <!-- Start body -->
+    <!-- Start Nav -->
     <nav class="nav">
             <ul>
                 <li>
@@ -22,13 +22,16 @@
                 <li>
                     <a href="#">Contact</a>
                 </li>
-        </nav>
+    </nav>
+    <!-- End Nav -->
+    <!-- Start Body -->
     <body>
         <div class="mainformdiv">
             DONT CLICK THIS LINK. DANGER BAD WEBSITE AHEAD: 
             <a href="#" onclick="alertUser()">here</a><br>
             But actually click this becasue javascript is cool ^^
-            <br><br>
+            <br>
+            <br>
             
             <form class="mainform" id ="mainform" >
                 First Name:
@@ -39,18 +42,22 @@
                 </br>
                 <input type="text" name="lastname" value="Same" id="lastname"><br>
                 Favorite Video Game:<br>
-                 <select name="games" id="game"> 
+                <select name="games" id="game"> 
                     <option value="overwatch">Overwatch</option>
                     <option value="leagueoflegends">League Of Legends</option>
                     <option value="diablo">Diablo</option>
                     <option value="mario">Mario</option>
-                </select><br>
-                Reason:<br>
+                </select>
+                <br>
+                Reason:
+                <br>
                 <input class="reasonbox" type="text" name="reason" value="It is so much fun" id="reason"><br><br>
-                <input class="submitbutton" type="submit" value="Submit" onclick="validateForm()"></input>
+                <input class="submitbutton" type="submit" value="Submit" onclick="return validateForm();"></input>
             </form> 
         </div>
     </body>
+    <!-- End Body -->
+    <!-- Start Footer -->
     <footer class="footerFinal">
             <div class="leftfoot">
                 <P>
@@ -75,4 +82,5 @@
                </p>
             </div>
         </footer>
+        <!-- End Footer -->
 </html>
